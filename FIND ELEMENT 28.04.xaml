@@ -76,7 +76,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1210,491" sap2010:WorkflowViewState.IdRef="RetryScope_1" RetryInterval="00:00:02">
+            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1210,491" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:02">
               <ui:RetryScope.ActivityBody>
                 <ActivityAction>
                   <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_2">
